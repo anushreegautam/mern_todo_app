@@ -1,0 +1,50 @@
+[
+  { 
+    "id": "65dccf86e1bcbe22818030b5",
+    "user_id": "65dccf6051e6ddfe454ddc86",
+    "username": "agautam",
+    "title": "Buy apple",
+    "sort_order": 1,
+    "is_completed": true
+  },
+  {
+    "id":"65dcd09fe1bcbe22818030b6",
+    "user_id": "65dccf6051e6ddfe454ddc86",
+    "username": "agautam",
+    "title": "Buy orange",
+    "sort_order": 2,
+    "is_completed": false
+  },
+  { 
+    "id": "65dccf86e1bcbe2281803021",
+    "user_id": "65dccf6051e6ddfe454ddc86",
+    "username": "agautam",
+    "title": "Buy socks",
+    "sort_order": 3,
+    "is_completed": false
+  },
+  {
+    "id":"65dcd09fe1bcbe228180307b",
+    "user_id": "65dccf6051e6ddfe454ddc86",
+    "username": "agautam",
+    "title": "Pay electricity bill",
+    "sort_order": 4,
+    "is_completed": true
+  },
+  { 
+    "id": "65dccf86e1bcbe228180303b",
+    "user_id": "65dccf6051e6ddfe454ddc86",
+    "username": "agautam",
+    "title": "Clean up kitchen",
+    "sort_order": 5,
+    "is_completed": true
+  },
+  {
+    "id":"65dcd09fe1bcbe2281803056",
+    "user_id": "65dccf6051e6ddfe454ddc86",
+    "username": "agautam",
+    "title": "Pick up dry cleaned clothes",
+    "sort_order": 6,
+    "is_completed": false
+  }
+]
