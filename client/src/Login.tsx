@@ -14,6 +14,9 @@ const Login = () => {
   const [showPassword, setShowPassword] = useState(false)
 
   const handleChange = (e: { target: { name: string, value: string } }) => {
+    if(!e.target.value) {
+      setError('')
+    }
     setUserInfo(prevState => ({...prevState, [e.target.name]: e.target.value}))
   }
 
@@ -36,7 +39,7 @@ const Login = () => {
   return (
     <Layout>
     <div className="main-container" >
-      <span className="page-heading" >Welcome to the Todo!</span>
+      <span className="page-heading" >Welcome Back!</span>
       <form className="todo-login-form" id="login-form"  onSubmit={handleLogin} >
         <input required type="text" className="todo-input-container" name="email" disabled={isFetching} value={userInfo.email} placeholder="Email" onChange={handleChange} />
         <div className="password-container">
