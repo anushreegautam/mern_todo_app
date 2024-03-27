@@ -83,7 +83,7 @@ const Home = () => {
       const newArray = arrayMove(tasks, oldIndex, newIndex)
       setTasks(newArray)
 
-      const body = newArray.map((data, index) => ({ id: data._id, sort_order: index + 1 }))
+      const body = newArray?.map((data, index, taskList) => ({ id: data._id, sort_order: taskList.length - index }))
 
       reorderTasks(body).then((response) => {
         if(response.ok) {

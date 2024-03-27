@@ -1,4 +1,6 @@
 # dependencies
 node_modules
 package-lock.json
-/server/config.env
+config.env
+.DS_Store
+dist
