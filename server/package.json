@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "start": "tsc && node dist/index.js",
-    "watch-build": "ts-node-dev --respawn -- ./index.ts"
+    "build:watch": "ts-node-dev --respawn -- ./index.ts"
   },
   "author": "",
   "license": "ISC",
