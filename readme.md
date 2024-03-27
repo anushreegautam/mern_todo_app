@@ -12,7 +12,7 @@ npm start
 To run the server, please create a `config.env` file in the server folder and add the following information in this file
 
 ```git 
-ATLAS_URI=mongodb+srv://<username>:<password>@cluster0.nu3l3gf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0`
+ATLAS_URI=<YOUR_MONGO_URI>
 PORT=3000
 PRIVATE_RSA_KEY=<PRIVATE_RSA_KEY>
 PUBLIC_RSA_KEY=<PUBLIC_RSA_KEY>
